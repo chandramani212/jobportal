@@ -40,4 +40,29 @@ return [
         ],
     ],
 
+    'facebook' => [
+     
+       'client_id' => env('FB_CLIENT_ID'), //Facebook API
+       'client_secret' => env('FB_CLIENT_SECRET'), //Facebook Secret
+       'redirect' => env('FB_REDIRECT'),
+    ],
+
+    'google' => [
+       'client_id' => 'af54e6bae9a4edfc6cbb',
+       'client_secret' => '95afc7b40e6aca6419a7623c34bb6d86cb2ac',
+       'redirect' => 'http://laravel.localhost/login/github/callback',
+    ],
+
+    'twitter' => [
+       'client_id' => '8JS1GvRflY5g9N3kZc0heYTqL',
+       'client_secret' => 'eYujptPLBAAzdHIz8hiqGgz4MkJTcmL1JAGEuEZsGU1MykjK',
+       'redirect' => 'http://laravel.localhost/login/twitter/callback',
+    ],
+
+    'github' => [
+       'client_id' => 'af54e6bae9a4edfc6cbb',
+       'client_secret' => '95afc7b40e6aca6419a7623c34bb6d86cb2ac',
+       'redirect' => 'http://laravel.localhost/login/github/callback',
+    ],
+ 
 ];

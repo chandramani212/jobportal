@@ -1,0 +1,17 @@
+
+portal
+	guest Area
+		pages can be accessible by public without any authentication
+	customer Area
+		 pages can be accessilbe by customer area
+		 login with be done through social login also
+	vendor Area 
+		Pages are accessilbe by specific to that vendor
+		- Vendor admin Area
+		- Vendor user Area
+	admin Area
+		Pages are accessilbe by specific to Application Admin
+		- Application admin Area
+		- Application user Area
+
+

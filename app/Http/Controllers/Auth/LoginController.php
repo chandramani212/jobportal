@@ -37,6 +37,7 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+
     /**
      * If the redirect path needs custom generation logic you may define a redirectTo method instead of a redirectTo property:
      *
